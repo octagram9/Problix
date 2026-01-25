@@ -75,22 +75,23 @@ Problix can run using **mock intelligence** for safe testing or switch to **real
 
 ## 📁 Project Structure
 
+```text
 backend/
-  main.py                     # FastAPI app & routes
-  ai/
-    problem_parser.py         # Problem analysis
-    idea_generator.py         # Product ideation
-    feature_generator.py      # Feature breakdown
-    tech_stack_generator.py   # Tech stack suggestions
-    mvp_roadmap_generator.py  # MVP roadmap
-    prompts/                  # Prompt templates
-  schemas/                    # Pydantic models
+├── main.py                     # FastAPI app & routes
+├── ai/
+│   ├── problem_parser.py       # Problem analysis
+│   ├── idea_generator.py       # Product ideation
+│   ├── feature_generator.py    # Feature breakdown
+│   ├── tech_stack_generator.py # Tech stack suggestions
+│   ├── mvp_roadmap_generator.py# MVP roadmap
+│   └── prompts/               # Prompt templates
+└── schemas/                    # Pydantic models
 
 frontend/
-  app/                        # Next.js App Router
-  components/                 # UI components
-  lib/                        # API helpers & config
-
+├── app/                        # Next.js App Router
+├── components/                 # UI components
+└── lib/                        # API helpers & config
+```
 ## ⚡ Getting Started
 
 ### Prerequisites
@@ -99,38 +100,45 @@ frontend/
 - pnpm / npm / yarn
 
 ### ▶ Backend Setup
-
+```
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r backend/requirements.txt
+```
 
 Create `backend/.env`:
 
 AI_MODE=mock
+```
 # GOOGLE_API_KEY=your_key_here
 # GEMINI_MODEL=gemini-2.5-flash
 # PROMPT_DIR=C:\absolute\path\to\custom_prompts
+```
 
 Run backend:
-
+```
 uvicorn backend.main:app --reload --port 8000
-
+```
 API Docs:
+```
 http://127.0.0.1:8000/docs
+```
 
 
 ### ▶ Frontend Setup
-
+```
 cd frontend
 pnpm install   # or npm install / yarn
+```
 
 Create `frontend/.env.local`:
-
+```
 NEXT_PUBLIC_API_BASE=http://127.0.0.1:8000
-
+```
 Run frontend:
-
+```
 pnpm dev
+```
 
 
 ## 🔌 API Endpoints
@@ -142,11 +150,11 @@ POST endpoints:
 - /generate-tech-stack
 - /generate-mvp-roadmap
 Example request:
-
+```
 {
   "problem": "Your problem statement here"
 }
-
+```
 
 ## 🧠 Prompt System
 
